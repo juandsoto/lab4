@@ -1,0 +1,33 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.control {
+  position: fixed;
+  top: 1rem;
+  background-color: transparent;
+  color: white;
+  text-transform: capitalize;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+}
+
+.control.previous {
+  left: 1rem;
+}
+
+.control.next {
+  right: 1rem;
+}
